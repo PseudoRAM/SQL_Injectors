@@ -18,7 +18,7 @@ $(".menu").sticky({
 // Menu Scroll to content and Active menu
 var lastId,
     topMenu = $("#menu"),
-    topMenuHeight = topMenu.outerHeight() + 145,
+    topMenuHeight = topMenu.outerHeight(),
     menuItems = topMenu.find("a"),
     scrollItems = menuItems.map(function() {
         var item = $($(this).attr("href"));
@@ -34,7 +34,7 @@ $('a[href*=#]').bind('click', function(e) {
 
 
     $('html, body').stop().animate({
-        scrollTop: $(target).offset().top - 140
+        scrollTop: $(target).offset().top
     }, 1000, function() {
 
     });
