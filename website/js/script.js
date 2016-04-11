@@ -1,6 +1,8 @@
-$(function () {
+function moveToStart() {
     window.location.assign("#home");
-});
+};
+
+window.onload = moveToStart;
 
 
 // niceScroll
