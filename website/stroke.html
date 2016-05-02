@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stroke Help: Strokes</title>
+        <meta name="description" content=""/>
+        <meta name="keywords" content=""/>
+        <meta name="author" content="SQL_Injectors"/>
+
+        <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="img/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="stylesheet" type="text/css" href="css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="css/sitemap-style.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/style-responsive.css" />
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="preloader" id="preloader">
+            <div class="item">
+                <img src="img/loading.gif">
+            </div>
+        </div>
+        <div class="container">
+            <!-- section menu mobile -->
+            <section class="menu-media">
+                <div class="menu-content">
+                    <div class="logo">Stroke Help</div>
+                    <div class="icon"><a href="#"><img src="img/icons/menu-media.png"/></a></div>
+                </div>
+            </section>
+            <ul class="menu-click">
+                <a href="#home">
+                    <li href="#home">HOME</li>
+                </a>
+                <a href="#about-us">
+                    <li href="#about-us">ABOUT US</li>
+                </a>
+                <a href="#services">
+                    <li href="#services">SERVICES</li>
+                </a>
+                <a href="#projects">
+                    <li href="#projects">PROJECTS</li>
+                </a>
+                <a href="#contact">
+                    <li href="#contact">CONTACT</li>
+                </a>
+            </ul>
+            <!-- section menu -->
+            <section class="menu">
+                <div class="menu-content">
+                    <div class="logo">Stroke Help</div>
+                    <ul id="menu">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="#about-us.html">ABOUT US</a></li>
+                        <li><a href="#services">SERVICES</a></li>
+                        <li><a href="#projects">PROJECTS</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Strokes section -->
+            <section class="stroke" id="stroke">
+                <div class="content">
+                    <h1>WHAT IS A STROKE?</h1>
+                    <hr/>
+                    <p class="title">A stroke happens when blood supply to the brain is interrupted. Blood is carried to the brain by blood vessels called arteries. Blood contains oxygen and important nutrients for your brain cells. Blood may be interrupted or stop moving through an artery, because the artery is blocked (ischaemic stroke) or bursts (haemorrhagic stroke). When brain cells do not get enough oxygen or nutrients, they die. The area of brain damage is called a cerebral infarct.</p>
+                    <br/>
+
+                    <h2>TYPES OF STROKES</h2>
+                    <hr/>
+
+                    <div class="column">
+                        <h2>HEMORRHAGIC STROKE</h2>
+                        <p>Hemorrhagic strokes are the least common of the two, only around 15% of strokes are Hemorrhagic, however, they still account for about 40% of of all stroke related deaths. A Hemorrhagic stroke occurs from either an aneurysm burst, or from a blood vessel leaking. Swelling occurs and pressure is formed around the brain as the blood surrounds it, ultimately damaging both the cells and tissue of the brain. Read more <a href="stroke-types.html">here</a>.
+                        <img id ="myImg" src="img/strokehem.png" alt="Hemorrhagic Stoke: Blood vessel bursts, releasing blood around the brain." style  ="width:300px;height:300px; margin: 50px 20px">
+                        <div id="myModal" class="modal">
+                          <span class="close">×</span>
+                          <img class="modal-content" id="img01">
+                          <div id="caption"></div>
+                        </div>
+
+                        <script>
+                        var modal = document.getElementById('myModal');
+
+                        var img = document.getElementById('myImg');
+                        var modalImg = document.getElementById("img01");
+                        var captionText = document.getElementById("caption");
+                        img.onclick = function(){
+                            modal.style.display = "block";
+                            modalImg.src = this.src;
+                            modalImg.alt = this.alt;
+                            captionText.innerHTML = this.alt;
+                        }
+                        var span = document.getElementsByClassName("close")[0];
+                        span.onclick = function() {
+                            modal.style.display = "none";
+                        }
+                        </script></p>
+                    </div>
+                    <div class="column">
+                        <h2>ISCHEMIC STROKE</h2>
+                        <p>Ischemic strokes are caused when an artery to the brain is blocked off, causing a loss of blood to certain areas of the brain. It is the most common type of stroke, accounting for up 80% of strokes and 60% of stroke related deaths. As the brain relies on the arteries to bring fresh blood and oxygen form the heart and lungs, the brain cells will not be able to function if they are cut off from this supply, as they won't be able to make enough energy. Read more <a href="stroke-types.html">here</a>.
+                        <img id ="myImg2" src="img/strokeisch.png" alt="Ischemic Stroke: Arteries become blocked, cutting off blood circulation to parts of the brain." style  ="width:300px;height:300px; margin: 50px 20px">
+                        <div id="myModal2" class="modal2">
+                          <span class="close2">×</span>
+                          <img class="modal-content2" id="img02">
+                          <div id="caption2"></div>
+                        </div>
+
+                        <script>
+                        var modal = document.getElementById('myModal2');
+
+                        var img = document.getElementById('myImg2');
+                        var modalImg = document.getElementById("img02");
+                        var captionText = document.getElementById("caption2");
+                        img.onclick = function(){
+                            modal.style.display = "block";
+                            modalImg.src = this.src;
+                            modalImg.alt = this.alt;
+                            captionText.innerHTML = this.alt;
+                        }
+                        var span = document.getElementsByClassName("close2")[0];
+                        span.onclick = function() {
+                            modal.style.display = "none";
+                        }
+                        </script></p>
+                    </div>
+                    <br/>
+                    <br/>
+                </div>
+            </section>
+
+
+            <section class="footer">
+                <div class="logo"><img src="img/logo-footer.png"></div>
+                <div class="menu-footer">
+                    <a href="#home">Home</a>
+                    <a href="#">Sitemap</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="copyright">Copyright © 2016 - SQL Injectors</div>
+            </section>
+        </div>
+        <!-- Scripts -->
+        <script src="js/jquery-latest.min.js" type="text/javascript"></script>
+        <script src="js/jquery.nicescroll.min.js"></script> <!-- jQuery NiceScroll -->
+        <script src="js/jquery.sticky.js"></script> <!-- jQuery Stick Menu -->
+        <script src="js/masonry.pkgd.min.js"></script> <!-- All script -->
+        <script src="js/imagesloaded.pkgd.min.js"></script> <!-- All script -->
+        <script>
+            $(function(){
+
+              var $container = $('.grid');
+
+              $container.imagesLoaded( function(){
+                $container.masonry({
+                  itemSelector : 'li'
+                });
+              });
+
+            });
+        </script>
+        <script src="js/parallax.min.js"></script> <!-- jQuery Parallax -->
+        <script src="js/script.js"></script> <!-- All script -->
+    </body>
+</html>
