@@ -201,10 +201,7 @@
     .menu-content {
         width: 750px;
     }
-    .menu-content ul {
-        width: 600px;
-    }
-    
+
     .about-us .content {
         width: 700px;
     }
@@ -218,14 +215,14 @@
     .about-us .column-one {
         width: 233px;
     }
-    
+
     .about-us .column-two {
         width: 233px;
     }
     .about-us .column-three {
         width: 233px;
     }
-    
+
     .services .content {
         width: 700px;
     }
