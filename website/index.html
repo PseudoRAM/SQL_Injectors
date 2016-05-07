@@ -1,131 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Stroke Help</title>
-        <meta name="description" content=""/>
-        <meta name="keywords" content=""/>
-        <meta name="author" content="SQL_Injectors"/>
 
-        <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-        <link rel="manifest" href="img/favicon/manifest.json">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stroke Help</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="SQL_Injectors" />
 
-        <link rel="stylesheet" type="text/css" href="css/reset.css" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link rel="stylesheet" type="text/css" href="css/style-responsive.css" />
-        <!--[if lt IE 9]>
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style-responsive.css" />
+    <link rel="stylesheet" href="css/login_style.css" />
+    <!--[if lt IE 9]>
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 
-    </head>
-    <body>
-        <div class="preloader" id="preloader">
-            <div class="item">
-                <img src="img/loading.gif">
-            </div>
+</head>
+
+<body>
+    <div class="preloader" id="preloader">
+        <div class="item">
+            <img src="img/loading.gif">
         </div>
-        <div class="container">
-            <!-- section start-page -->
-            <section class="start-page parallax-background" id="home">
-                <div class="opacity"></div>
-                <!-- Opacity color -->
-                <div class="content">
-                    <div class="text">
-                        <!--<div class="logo"><img src="img/logo.png"></div>
+    </div>
+    <div class="container">
+        <!-- section start-page -->
+        <section class="login" id="login">
+            <div class="login__wrapper">
+                <div class="login__container">
+                    <ul class="login__tabs">
+                        <li data-tabtar="lgm-2"><a href="#">Login</a></li>
+                        <li data-tabtar="lgm-1"><a href="#">Sign Up</a></li>
+                    </ul>
+                    <div class="login__tab-wrapper">
+                        <div class="login__tab lgm-1">
+                            <div class="login__heading">
+                                <span class="login__heading-subtitle">Enter your personal details <strong>to create an acount</strong></span>
+                            </div>
+                            <div class="login__form">
+                                <form accept-charset="utf-8" action="#" class="simform">
+                                    <div class="sminputs">
+                                        <div class="input full">
+                                            <label class="string optional" for="user-name">Email*</label>
+                                            <input class="string optional" maxlength="255" id="user-email" placeholder="Email" type="email" size="50" />
+                                        </div>
+                                    </div>
+                                    <div class="sminputs">
+                                        <div class="input string optional">
+                                            <label class="string optional" for="user-pw">Password *</label>
+                                            <input class="string optional" maxlength="255" id="user-pw" placeholder="Password" type="password" size="50" />
+                                        </div>
+                                        <div class="input string optional">
+                                            <label class="string optional" for="user-pw-repeat">Repeat password *</label>
+                                            <input class="string optional" maxlength="255" id="user-pw-repeat" placeholder="Repeat password" type="password" size="50" />
+                                        </div>
+                                    </div>
+                                    <div class="simform__actions">
+                                        <div class="loginBtn">Create Account</div>
+                                        <!--<input class="sumbit" name="commit" type="sumbit" value="Create Account" />-->
+                                        <span class="simform__actions-sidetext">By creating an account you agree to our <a class="special" href="#" target="_blank" role="link">Terms & Privacy</a></span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="login__tab lgm-2">
+                            <div class="login__heading">
+                                <span class="login__heading-subtitle">Enter your email and password <strong>to sign in</strong></span>
+                            </div>
+                            <div class="login__form">
+                                <form accept-charset="utf-8" action="#" class="simform">
+                                    <div class="sminputs">
+                                        <div class="input full">
+                                            <label class="string optional" for="user-name">Email*</label>
+                                            <input class="string optional" maxlength="255" id="user-email" placeholder="Email" type="email" size="50" />
+                                        </div>
+                                    </div>
+                                    <div class="sminputs">
+                                        <div class="input full">
+                                            <label class="string optional" for="user-pw">Password *</label>
+                                            <input class="string optional" maxlength="255" id="user-pw" placeholder="Password" type="password" size="50" />
+                                            <span class="hide-password">Show</span>
+                                        </div>
+                                    </div>
+                                    <div class="simform__actions">
+                                        <div class="loginBtn">login</div>
+                                        <!--<input class="sumbit" name="commit" type="sumbit" value="Log In" />-->
+                                        <span class="simform__actions-sidetext">Forgot your password?<br><a class="special" href="#" target="_blank" role="link">Click here</a></span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="start-page parallax-background" id="home">
+            <div class="opacity"></div>
+            <!-- Opacity color -->
+            <div class="content">
+                <div class="text">
+                    <!--<div class="logo"><img src="img/logo.png"></div>
                         <h1>Stroke Help</h1>
                         <hr/>
                         <p>Your one stop site for all IM and Stroke related information</p>-->
-                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                        <a href="#about-us">
-                            <div class="read-more">Read more</div>
-                        </a>
-                    </div>
-                    <div class="arrow-down"></div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="#about-us">
+                        <div class="read-more">Read more</div>
+                    </a>
                 </div>
-            </section>
+                <div class="arrow-down"></div>
+            </div>
+        </section>
 
-           <!-- section menu mobile -->
-            <section class="menu-media">
-                <div class="menu-content">
+        <!-- section menu mobile -->
+        <section class="menu-media">
+            <div class="menu-content">
+                <div class="logo">Stroke Help</div>
+                <div class="icon">
+                    <a href="#"><img src="img/icons/menu-media.png" /></a>
+                </div>
+            </div>
+        </section>
+        <ul class="menu-click">
+            <a href="index.html#home">
+                <li href="index.html#home">HOME</li>
+            </a>
+            <a href="about-us.html">
+                <li href="about-us.html">ABOUT</li>
+            </a>
+            <a href="stroke.html">
+                <li href="stroke.html">STROKES</li>
+            </a>
+            <a href="im.html">
+                <li href="im.html">IM</li>
+            </a>
+            <a href="index.html#contact">
+                <li href="index.html#contact">CONTACT</li>
+            </a>
+            <a href="faq.html">
+                <li href="faq.html">FAQ</li>
+            </a>
+        </ul>
+
+        <!-- section menu -->
+        <section class="menu">
+            <div class="menu-content">
+                <a href='index.html#home'>
                     <div class="logo">Stroke Help</div>
-                    <div class="icon"><a href="#"><img src="img/icons/menu-media.png"/></a></div>
+                </a>
+                <div id='navBar'>
+                    <ul id="menu">
+                        <li class='active'><a href='about-us.html'>ABOUT</a>
+                            <ul>
+                                <li><a href='stroke.html'>STROKES</a>
+                                    <ul>
+                                        <li><a href='stroke.html'>WHAT ARE STROKES?</a></li>
+                                        <li><a href='stroke.html'>STROKE TREATMENT</a></li>
+                                        <li><a href='stroke-types.html'>TYPES OF STROKES</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href='im.html'>IM</a>
+                                    <ul>
+                                        <li><a href='im.html'>WHAT IS IM?</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href='stroke.html'>STROKES</a></li>
+                        <li><a href='im.html'>IM</a></li>
+                        <li><a href='#contact'>CONTACT</a></li>
+                        <li><a href='faq.html'>FAQ</a></li>
+                        <li><a id='hideshow' value='hide/show'>LOGIN</a></li>
+                    </ul>
                 </div>
-            </section>
-            <ul class="menu-click">
-                <a href="index.html#home">
-                    <li href="index.html#home">HOME</li>
-                </a>
-                <a href="about-us.html">
-                    <li href="about-us.html">ABOUT</li>
-                </a>
-                <a href="stroke.html">
-                    <li href="stroke.html">STROKES</li>
-                </a>
-                <a href="im.html">
-                    <li href="im.html">IM</li>
-                </a>
-                <a href="index.html#contact">
-                    <li href="index.html#contact">CONTACT</li>
-                </a>
-                <a href="faq.html">
-                    <li href="faq.html">FAQ</li>
-                </a>
-            </ul>
+            </div>
+        </section>
 
-            <!-- section menu -->
-            <section class="menu">
-                <div class="menu-content">
-                    <a href='index.html#home'><div class="logo">Stroke Help</div></a>
-                    <div id='navBar'>
-                        <ul id="menu">
-                            <li class='active'><a href='about-us.html'>ABOUT</a>
-                                <ul>
-                                    <li><a href='stroke.html'>STROKES</a>
-                                        <ul>
-                                            <li><a href='stroke.html'>WHAT ARE STROKES?</a></li>
-                                            <li><a href='stroke.html'>STROKE TREATMENT</a></li>
-                                            <li><a href='stroke-types.html'>TYPES OF STROKES</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href='im.html'>IM</a>
-                                        <ul>
-                                            <li><a href='im.html'>WHAT IS IM?</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href='stroke.html'>STROKES</a></li>
-                            <li><a href='im.html'>IM</a></li>
-                            <li><a href='#contact'>CONTACT</a></li>
-                            <li><a href='faq.html'>FAQ</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <!-- section about us -->
-            <section class="about-us" id="about-us">
-                <div class="content">
-                    <h1>ABOUT US</h1>
-                    <hr/>
-                    <p class="title">StrokeHelp.com was created and designed to provide support and knowledge to those whom desire the latest support from the most trusted sources. Our site and services were developed in order to raise the right aweness to help anybody identify and diagnose the effects of stroke early in order to help save people’s lives.
-The fundamental aim of our service is to alert the general public on how to save the lives of stroke victims and to support them after the stroke to get them back on their feet. </p>
+        <!-- section about us -->
+        <section class="about-us" id="about-us">
+            <div class="content">
+                <h1>ABOUT US</h1>
+                <hr/>
+                <p class="title">StrokeHelp.com was created and designed to provide support and knowledge to those whom desire the latest support from the most trusted sources. Our site and services were developed in order to raise the right aweness to help anybody identify
+                    and diagnose the effects of stroke early in order to help save people’s lives. The fundamental aim of our service is to alert the general public on how to save the lives of stroke victims and to support them after the stroke to get
+                    them back on their feet. </p>
                 <div class="column-two">
                     <div class="circle-two"></div>
                     <h2>STROKES</h2>
@@ -141,157 +240,170 @@ The fundamental aim of our service is to alert the general public on how to save
                     <h2>INTEGRATIVE MEDICINE</h2>
                     <p>Integrative medicine is a philosophy of healthcare, where Western medicines are combined with alternate treatments in order to treat ailments. <a href="integrativemed.html">Click here to learn more.</a></p>
                 </div>
-                </div>
-            </section>
-            <div class="clear"></div>
-            <!-- services-->
-            <section class="services" id="services">
-                <div class="content">
-                    <h1>WANT TO LEARN MORE ABOUT STROKES?</h1>
-                    <hr/>
-                    <p class="title">Check out our informative video, covering a range of topics about Strokes.</p>
-                    <img src="img/placeholder.png" alt="placeholder" style="display: block; margin: auto; width: 80%; padding: 15px;">
-                    <div class="">
-                        <br/>
-                    </div>
-                    <div class="">
-                    </div>
-                    <div class="">
-                    </div>
-                </div>
-            </section>
-            <div class="clear"></div>
-            <!-- projects-->
-            <section class="projects" id="projects">
-                <div class="projects-margin">
-                    <h1>CHECK IF YOU'RE AT RISK</h1>
-                    <hr/>
-                    <!-- 1 item projects-->
-                    <ul class="grid">
-                        <li>
-                            <a href="#">
-                                <p style="text-align: center; color: black;">Stroke Risk Identifier</p>
-                                <img src="img/projects/1.png" alt="Projects item" />
-                                <div class="text">
-                                    <p>Stroke Risk Identifier</p>
-                                    <p class="description"></p>
-                                </div>
-                            </a>
-                        </li>
-                        <!-- 2 item projects-->
-                        <li>
-                            <a href="#">
-                                <p style="text-align: center; color: black;">Stroke Knowledge Quiz</p>
-                                <img src="img/projects/2.png" alt="Projects item" />
-                                <div class="text">
-                                    <p>Stroke Knowledge Quiz</p>
-                                    <p class="description"></p>
-                                </div>
-                            </a>
-                        </li>
-                        <!-- 3 item projects-->
-                        <li>
-                            <a href="#">
-                                <p style="text-align: center; color: black;">FAQ</p>
-                                <a href="faq.html">
-                                    <img src="img/projects/3.png" alt="Projects item" />
-                                </a>
-                                <div class="text">
-                                    <p>FAQ</p>
-                                    <p class="description"></p>
-                                </div>
-                            </a>
-                        </li>
-                        <!-- 4 item projects-->
-
-                    </ul>
-                    <a href="#">
-                        <div class="read-more">Read more</div>
-                    </a>
-                </div>
-            </section>
-            <div class="clear"></div>
-            <!-- partners-->
-            <section class="partners parallax-background-partners" id="partners">
-                <div class="opacity"></div>
-                <div class="content">
-                    <h2>Our Partners</h2>
-                    <div class="logo">
-                        <a href="#"><img src="img/logos/HeartStrokeFoundation.png"></a>
-                        <a href="#"><img src="img/logos/StrokeFoundation.png"></a>
-                        <a href="#"><img src="img/logos/NationalStrokeAssociation.png"></a>
-                        <a href="#"><img src="img/logos/ConstraintTherapyAus.png"></a>
-                    </div>
-                </div>
-            </section>
-            <!-- Contact-->
-            <section class="contact" id="contact">
-                <a name="contact"><h1>Contact & Feedback</h1></a>
+            </div>
+        </section>
+        <div class="clear"></div>
+        <!-- services-->
+        <section class="services" id="services">
+            <div class="content">
+                <h1>WANT TO LEARN MORE ABOUT STROKES?</h1>
                 <hr/>
-                <div class="content">
-                    <div class="contact-text">
-                        Get the right support and contact us today<br/><br/>
-
-                        <strong>SQL Injectors</strong><br/><br/>
-                        e-mail: <strong>contact@strokehelp.com</strong>
-                        <br/><br/>
-                    </div>
-                    <div class="form">
-                        <form id="contact" action="mail.php" method="post">
-                            <fieldset>
-                                <input placeholder="Name" type="text" tabindex="1" required autofocus>
-                            </fieldset>
-                            <fieldset>
-                                <input placeholder="Email" type="email" tabindex="2" required>
-                            </fieldset>
-                            <fieldset>
-                                <input placeholder="Subject" type="subject" tabindex="3" required>
-                            </fieldset>
-                            <fieldset>
-                                <textarea placeholder="Your Message" tabindex="4" required></textarea>
-                            </fieldset>
-                            <fieldset>
-                                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-                            </fieldset>
-                        </form>
-                    </div>
+                <p class="title">Check out our informative video, covering a range of topics about Strokes.</p>
+                <img src="img/placeholder.png" alt="placeholder" style="display: block; margin: auto; width: 80%; padding: 15px;">
+                <div class="">
+                    <br/>
                 </div>
-            </section>
-            <section class="footer">
-                <div class="logo"><img src="img/logo-footer.png"></div>
-                <div class="menu-footer">
-                    <a href="index.html#home">Home</a>
-                    <a href="sitemap.html">Sitemap</a>
-                    <a href="privacy.html">Privacy</a>
-                    <a href="#">Facebook</a>
-                    <a href="#">Twitter</a>
-                    <a href="index.html#contact">Contact</a>
+                <div class="">
                 </div>
-                <div class="copyright">Copyright © 2016 - SQL Injectors</div>
-            </section>
-        </div>
-        <!-- Scripts -->
-        <script src="js/jquery-latest.min.js" type="text/javascript"></script>
-        <script src="js/jquery.nicescroll.min.js"></script> <!-- jQuery NiceScroll -->
-        <script src="js/jquery.sticky.js"></script> <!-- jQuery Stick Menu -->
-        <script src="js/masonry.pkgd.min.js"></script> <!-- All script -->
-        <script src="js/imagesloaded.pkgd.min.js"></script> <!-- All script -->
-        <script>
-            $(function(){
+                <div class="">
+                </div>
+            </div>
+        </section>
+        <div class="clear"></div>
+        <!-- projects-->
+        <section class="projects" id="projects">
+            <div class="projects-margin">
+                <h1>CHECK IF YOU'RE AT RISK</h1>
+                <hr/>
+                <!-- 1 item projects-->
+                <ul class="grid">
+                    <li>
+                        <a href="#">
+                            <p style="text-align: center; color: black;">Stroke Risk Identifier</p>
+                            <img src="img/projects/1.png" alt="Projects item" />
+                            <div class="text">
+                                <p>Stroke Risk Identifier</p>
+                                <p class="description"></p>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- 2 item projects-->
+                    <li>
+                        <a href="#">
+                            <p style="text-align: center; color: black;">Stroke Knowledge Quiz</p>
+                            <img src="img/projects/2.png" alt="Projects item" />
+                            <div class="text">
+                                <p>Stroke Knowledge Quiz</p>
+                                <p class="description"></p>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- 3 item projects-->
+                    <li>
+                        <a href="#">
+                            <p style="text-align: center; color: black;">FAQ</p>
+                            <a href="faq.html">
+                                <img src="img/projects/3.png" alt="Projects item" />
+                            </a>
+                            <div class="text">
+                                <p>FAQ</p>
+                                <p class="description"></p>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- 4 item projects-->
 
-              var $container = $('.grid');
+                </ul>
+                <a href="#">
+                    <div class="read-more">Read more</div>
+                </a>
+            </div>
+        </section>
+        <div class="clear"></div>
+        <!-- partners-->
+        <section class="partners parallax-background-partners" id="partners">
+            <div class="opacity"></div>
+            <div class="content">
+                <h2>Our Partners</h2>
+                <div class="logo">
+                    <a href="#"><img src="img/logos/HeartStrokeFoundation.png"></a>
+                    <a href="#"><img src="img/logos/StrokeFoundation.png"></a>
+                    <a href="#"><img src="img/logos/NationalStrokeAssociation.png"></a>
+                    <a href="#"><img src="img/logos/ConstraintTherapyAus.png"></a>
+                </div>
+            </div>
+        </section>
+        <!-- Contact-->
+        <section class="contact" id="contact">
+            <a name="contact"><h1>Contact & Feedback</h1></a>
+            <hr/>
+            <div class="content">
+                <div class="contact-text">
+                    Get the right support and contact us today
+                    <br/>
+                    <br/>
 
-              $container.imagesLoaded( function(){
+                    <strong>SQL Injectors</strong>
+                    <br/>
+                    <br/> e-mail: <strong>contact@strokehelp.com</strong>
+                    <br/>
+                    <br/>
+                </div>
+                <div class="form">
+                    <form id="contact" action="mail.php" method="post">
+                        <fieldset>
+                            <input placeholder="Name" type="text" tabindex="1" required autofocus>
+                        </fieldset>
+                        <fieldset>
+                            <input placeholder="Email" type="email" tabindex="2" required>
+                        </fieldset>
+                        <fieldset>
+                            <input placeholder="Subject" type="subject" tabindex="3" required>
+                        </fieldset>
+                        <fieldset>
+                            <textarea placeholder="Your Message" tabindex="4" required></textarea>
+                        </fieldset>
+                        <fieldset>
+                            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="logo"><img src="img/logo-footer.png"></div>
+            <div class="menu-footer">
+                <a href="index.html#home">Home</a>
+                <a href="sitemap.html">Sitemap</a>
+                <a href="privacy.html">Privacy</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+            <div class="copyright">Copyright © 2016 - SQL Injectors</div>
+        </section>
+
+    </div>
+    <!-- Scripts -->
+    <script src="js/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <!-- jQuery NiceScroll -->
+    <script src="js/jquery.sticky.js"></script>
+    <!-- jQuery Stick Menu -->
+    <script src="js/masonry.pkgd.min.js"></script>
+    <!-- All script -->
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <!-- All script -->
+    <script>
+        $(function() {
+
+            var $container = $('.grid');
+
+            $container.imagesLoaded(function() {
                 $container.masonry({
-                  itemSelector : 'li'
+                    itemSelector: 'li'
                 });
-              });
-
             });
-        </script>
-        <script src="js/parallax.min.js"></script> <!-- jQuery Parallax -->
-        <script src="js/script.js"></script> <!-- All script -->
+
+        });
+    </script>
+    <script src="js/parallax.min.js"></script>
+    <!-- jQuery Parallax -->
+    <script src="js/script.js"></script>
+    <script src="js/login.js"></script>
+    <!-- All script -->
 
 
-    </body>
+</body>
+
 </html>
