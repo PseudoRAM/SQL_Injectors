@@ -45,7 +45,14 @@
     </div>
     <div class="container">
         <!-- section start-page -->
-        <section class="login" id="login">
+		<section class="login" id="login">
+			<span class="close">×</span>
+			<script>
+				var span = document.getElementsByClassName("close")[0];
+                        span.onclick = function() {
+                            login.style.display = "none";
+                        }
+			</script>
             <div class="login__wrapper">
                 <div class="login__container">
                     <ul class="login__tabs">
@@ -55,7 +62,7 @@
                     <div class="login__tab-wrapper">
                         <div class="login__tab lgm-1">
                             <div class="login__heading">
-                                <span class="login__heading-subtitle">Enter your personal details <strong>to create an acount</strong></span>
+                                <span class="login__heading-subtitle">Enter your personal details <strong>to create an account</strong></span>
                             </div>
                             <div class="login__form">
                                 <form accept-charset="utf-8" action="#" class="simform">
