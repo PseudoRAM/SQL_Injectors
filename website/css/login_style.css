@@ -25,6 +25,21 @@ html {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#383838', endColorstr='#000000', GradientType=1);
     /* IE6-9 fallback on horizontal gradient */
 }
+
+.close {
+    position: absolute;
+    top: 30px;
+    left: 90%;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.close:hover, .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
 .login::after {
     clear: both;
     content: "";
