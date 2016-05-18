@@ -114,3 +114,44 @@ var LoginModalController = {
         base.findElements().setState().getActiveTab().addClickEvents();
     }
 };
+
+$( "#loginBtn" ).click(function() {
+
+    var dataPass = {username : document.getElementById("user-email2").value, passd : document.getElementById("user-pw2").value};
+
+    $.ajax({
+        url : "php/login.php",
+        type : "GET",
+        data : dataPass,
+        success : function(data) {
+            if (data === "success\n") {
+                alert("You've successfully logged in");
+            }
+            else {
+                alert("Invalid username or password");
+            }
+        }
+    });
+
+});
+
+$("#registerBtn").click(function() {
+
+    var dataPass = {useremail : document.getElementById("user-email").value, passd : document.getElementById("user-pw").value, passd2 : document.getElementById("user-pw-repeat").value};
+
+    $.ajax({
+        url : "php/register.php",
+        type : "GET",
+        data : dataPass,
+        success : function(data) {
+
+            if (data === "success\n") {
+                alert("You've successfully logged in");
+            }
+            else {
+                alert("Invalid username or password");
+            }
+        }
+    });
+
+});
