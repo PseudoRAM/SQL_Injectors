@@ -1,173 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Stroke Help: Strokes</title>
-        <meta name="description" content=""/>
-        <meta name="keywords" content=""/>
-        <meta name="author" content="SQL_Injectors"/>
 
-        <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-        <link rel="manifest" href="img/favicon/manifest.json">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stroke Help: Strokes</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="SQL_Injectors" />
 
-        <link rel="stylesheet" type="text/css" href="css/reset.css" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link rel="stylesheet" type="text/css" href="css/style-responsive.css" />
-        <!--[if lt IE 9]>
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style-responsive.css" />
+    <link rel="stylesheet" href="css/login_style.css" />
+    <!--[if lt IE 9]>
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-    </head>
-    <body>
-        <div class="preloader" id="preloader">
-            <div class="item">
-                <img src="img/loading.gif">
-            </div>
-        </div>
-        <div class="container">
-            <!-- section menu mobile -->
-            <section class="menu-media">
-                <div class="menu-content">
-                    <div class="logo">Stroke Help</div>
-                    <div class="icon"><a href="#"><img src="img/icons/menu-media.png"/></a></div>
-                </div>
-            </section>
-            <ul class="menu-click">
-                <a href="index.html#home">
-                    <li href="index.html#home">HOME</li>
-                </a>
-                <a href="about-us.html">
-                    <li href="about-us.html">ABOUT</li>
-                </a>
-                <a href="stroke.html">
-                    <li href="stroke.html">STROKES</li>
-                </a>
-                <a href="im.html">
-                    <li href="im.html">IM</li>
-                </a>
-                <a href="index.html#contact">
-                    <li href="index.html#contact">CONTACT</li>
-                </a>
-                <a href="faq.html">
-                    <li href="faq.html">FAQ</li>
-                </a>
-            </ul>
+</head>
 
-            <!-- section menu -->
-            <section class="menu">
-                <div class="menu-content">
-                    <a href='index.html'><div class="logo">Stroke Help</div></a>
-                    <div id='navBar'>
-                        <ul id="menu">
-                            <li class='active'><a href='about-us.html'>ABOUT</a>
-                                <ul>
-                                    <li><a href='stroke.html'>STROKES</a>
-                                        <ul>
-                                            <li><a href='stroke.html'>WHAT ARE STROKES?</a></li>
-                                            <li><a href='stroke-treatment.html'>STROKE TREATMENT</a></li>
-                                            <li><a href='stroke-types.html'>TYPES OF STROKES</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href='im.html'>IM</a>
-                                        <ul>
-                                            <li><a href='im-second.html'>WHAT IS IM?</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href='stroke.html'>STROKES</a></li>
-                            <li><a href='im.html'>IM</a></li>
-                            <li><a href='contact.html'>CONTACT</a></li>
-                            <li><a href='faq.html'>FAQ</a></li>
-                        </ul>
+<body>
+    <div class="preloader" id="preloader">
+        <div class="item">
+            <img src="img/loading.gif">
+        </div>
+    </div>
+    <div class="container">
+        <section class="login" id="login">
+            <span class="close">×</span>
+            <script>
+                var span = document.getElementsByClassName("close")[0];
+                span.onclick = function() {
+                    login.style.display = "none";
+                }
+            </script>
+            <div class="login__wrapper">
+                <div class="login__container">
+                    <ul class="login__tabs">
+                        <li data-tabtar="lgm-2"><a href="#">Login</a></li>
+                        <li data-tabtar="lgm-1"><a href="#">Sign Up</a></li>
+                    </ul>
+                    <div class="login__tab-wrapper">
+                        <div class="login__tab lgm-1">
+                            <div class="login__heading">
+                                <span class="login__heading-subtitle">Enter your personal details <strong>to create an account</strong></span>
+                            </div>
+                            <div class="login__form">
+                                <form accept-charset="utf-8" action="#" class="simform1">
+                                    <div class="sminputs">
+                                        <div class="input full">
+                                            <label class="string optional" for="user-name">Email*</label>
+                                            <input class="string optional" maxlength="255" style='cursor: text;' id="user-email" placeholder="Email" type="email" size="50" />
+                                        </div>
+                                    </div>
+                                    <div class="sminputs">
+                                        <div class="input string optional">
+                                            <label class="string optional" for="user-pw">Password *</label>
+                                            <input class="string optional" maxlength="255" style='cursor: text;' id="user-pw" placeholder="Password" type="password" size="50" />
+                                        </div>
+                                        <div class="input string optional">
+                                            <label class="string optional" for="user-pw-repeat">Repeat password *</label>
+                                            <input class="string optional" maxlength="255" style='cursor: text;' id="user-pw-repeat" placeholder="Repeat password" type="password" size="50" />
+                                        </div>
+                                    </div>
+                                    <div class="simform__actions">
+                                        <div class="loginBtn" id="registerBtn">Create Account</div>
+                                        <!--<input class="sumbit" name="commit" type="sumbit" value="Create Account" />-->
+                                        <span class="simform__actions-sidetext">By creating an account you agree to our <a class="special" href="privacy.html" target="_blank" role="link">Terms & Privacy</a></span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="login__tab lgm-2">
+                            <div class="login__heading">
+                                <span class="login__heading-subtitle">Enter your email and password <strong>to sign in</strong></span>
+                            </div>
+                            <div class="login__form">
+                                <form accept-charset="utf-8" action="#" class="simform2">
+                                    <div class="sminputs">
+                                        <div class="input full">
+                                            <label class="string optional" for="user-name">Email*</label>
+                                            <input class="string optional" style='cursor: text;' maxlength="255" id="user-email2" placeholder="Email" type="email" size="50" />
+                                        </div>
+                                    </div>
+                                    <div class="sminputs">
+                                        <div class="input full">
+                                            <label class="string optional" for="user-pw">Password *</label>
+                                            <input class="string optional" style='cursor: text;' maxlength="255" id="user-pw2" placeholder="Password" type="password" size="50" />
+                                            <span class="hide-password">Show</span>
+                                        </div>
+                                    </div>
+                                    <div class="simform__actions">
+                                        <div class="loginBtn" id="loginBtn">login</div>
+                                        <!--<input class="sumbit" name="commit" type="sumbit" value="Log In" />-->
+                                        <span class="simform__actions-sidetext">Forgot your password?<br><a class="special" href="#" target="_blank" role="link">Click here</a></span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </section>
-            <!-- Strokes section -->
-            <section class="stroke" id="stroke">
-                <div class="content">
-                    <h1>Stroke Treatments</h1>
-                    <hr/>
-                    <p class="title">Once a stroke has been diagnosed in a patient, treatment will often be
-						administered as quickly as possible, in order to maximise the chance of survival.
-						There various different treatments available, ranging from surgical procedures to
-						taking medical drugs to help treat a patient. The treatment they will recieve will also
-						be dependent on what type of stroke they've had (Ishcemic or Hemorhaggic).
-					</p>
-                    <h2>ISCHEMIC STROKE TREATMENTS</h2>
-					<br>
-					<p class = "content">The first treatment available for Ischemic Strokes is a drug called
-						<strong>tPA</strong>, which is administered to the brain's blood flow. tPA is a tissue
-						plasminogen activator, which means that it is able to dissolve the clot in the brain
-						and restore blood flow to it. If this treatment is administered to the stroke victim
-						within three hours, it can significantly improve the patients chance of recovery.</p>
-                    <br/>
-					<p class = "content">The second treatment available for Ischemic Strokes is a procedure
-						known as <strong>Mechanical Thrombectomy</strong>. This treatment is only available
-						after the patient has recieved their tPA injection. In this operation, a catheter is
-						threaded through an artery in the groin all the way ip to the blood clot in the brain.
-						Suction tubes are then used to assist doctors in removing the clot so that blood flow
-						may return to normal. For this treatment to be effictive, it must be performed within
-						six hours of the stroke occuring.</p>
-					<br>
-					<h2>HEMORHAGGIC STROKE TREATMENTS</h2>
-					<br>
-					<p class = "content">The first treatment that is available for Hemorhaggic Stroke patients
-						is called an <strong>Endovascular Procedure</strong>. This procedure is similar to the
-						mechanical thrombectomy. A catheter is inserted into an artery in the arm or leg, and
-						then guided to the brain. A mechanical agent such as a coil is then used to prevent any
-						further damage to the brain's blood supply.</p>
-					<br>
-					<p class = "content">The second treatment available is a surgical one. The operation is
-						done to stop blood from bleeding onto the brain. There are various methods used during
-						this operation, but the most common one is using a metal clip. For example, in the case
-						of a ruptured aneurysm, the metal clip is attached to the base of the aneurysm to
-						prevent any further bleeding or damage.</p>
-				</div>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-            </section>
+            </div>
+        </section>
+        <!-- section menu mobile -->
+        <section class="menu-media">
+            <div class="menu-content">
+                <div class="logo">Stroke Help</div>
+                <div class="icon">
+                    <a href="#"><img src="img/icons/menu-media.png" /></a>
+                </div>
+            </div>
+        </section>
+        <ul class="menu-click">
+            <a href="index.html">
+                <li href="index.html">HOME</li>
+            </a>
+            <a href="about-us.html">
+                <li href="about-us.html">ABOUT</li>
+            </a>
+            <a href="stroke.html">
+                <li href="stroke.html">STROKES</li>
+            </a>
+            <a href="im.html">
+                <li href="im.html">IM</li>
+            </a>
+            <a href="index.html#contact">
+                <li href="index.html#contact">CONTACT</li>
+            </a>
+            <a href="faq.html">
+                <li href="faq.html">FAQ</li>
+            </a>
+        </ul>
 
-        </div>
-        <!-- Scripts -->
-        <script src="js/jquery-latest.min.js" type="text/javascript"></script>
-        <script src="js/jquery.nicescroll.min.js"></script> <!-- jQuery NiceScroll -->
-        <script src="js/jquery.sticky.js"></script> <!-- jQuery Stick Menu -->
-        <script src="js/masonry.pkgd.min.js"></script> <!-- All script -->
-        <script src="js/imagesloaded.pkgd.min.js"></script> <!-- All script -->
-        <script>
-            $(function(){
+        <!-- section menu -->
+        <section class="menu">
+            <div class="menu-content">
+                <a href='index.html'>
+                    <div class="logo">Stroke Help</div>
+                </a>
+                <div id='navBar'>
+                    <ul id="menu">
+                        <li class='active'><a href='about-us.html'>ABOUT</a>
+                            <ul>
+                                <li><a href='stroke.html'>STROKES</a>
+                                    <ul>
+                                        <li><a href='stroke.html'>WHAT ARE STROKES?</a></li>
+                                        <li><a href='stroke.html'>STROKE TREATMENT</a></li>
+                                        <li><a href='stroke-types.html'>TYPES OF STROKES</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href='im.html'>IM</a>
+                                    <ul>
+                                        <li><a href='im.html'>WHAT IS IM?</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href='stroke.html'>STROKES</a>
+                            <ul>
+                                <li><a href='stroke-treatment.html'>TREATMENT</a>
+                                    <ul>
+                                        <li><a href='im.html'>IM</a></li>
+                                        <li><a href='stroke-treatment.html'>TPA</a></li>
+                                        <li><a href='stroke-treatment.html'>MECHANICAL THROMBECTOMY</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href='stroke-rehab.html'>PREVENTION</a></li>
+                                <li><a href='stroke-types.html'>TYPES</a>
+                                    <ul>
+                                        <li><a href='stroke-types.html'>ISCHEMIC</a></li>
+                                        <li><a href='stroke-types.html'>HEMORRHAGIC</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href='im.html'>IM</a>
+                            <ul>
+                                <li><a href='im.html'>ABOUT</a>
+                                    <ul>
+                                        <li><a href='im.html'>WHAT IS IM?</a></li>
+                                        <li><a href='im.html'>ARTICLES ON IM</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href='im-second.html'>TYPES</a>
+                                    <ul>
+                                        <li><a href='im-second.html'>ACCUPUNCTURE</a></li>
+                                        <li><a href='im-second.html'>HERBS</a></li>
+                                        <li><a href='im-second.html'>MEDITATION</a></li>
+                                        <li><a href='im-second.html'>CREATIVE OUTLETS</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href='#contact'>CONTACT</a></li>
+                        <li><a href='faq.html'>FAQ</a></li>
+                        <li><a id='hideshow' value='hide/show' style='cursor: pointer;'>LOGIN</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Strokes section -->
+        <section class="stroke" id="stroke">
+            <div class="content">
+                <h1>Stroke Treatments</h1>
+                <hr/>
+                <p class="title">Once a stroke has been diagnosed in a patient, treatment will often be administered as quickly as possible, in order to maximise the chance of survival. There various different treatments available, ranging from surgical procedures to
+                    taking medical drugs to help treat a patient. The treatment they will recieve will also be dependent on what type of stroke they've had (Ishcemic or Hemorhaggic).
+                </p>
+                <h2>ISCHEMIC STROKE TREATMENTS</h2>
+                <br>
+                <p class="content">The first treatment available for Ischemic Strokes is a drug called
+                    <strong>tPA</strong>, which is administered to the brain's blood flow. tPA is a tissue plasminogen activator, which means that it is able to dissolve the clot in the brain and restore blood flow to it. If this treatment is administered
+                    to the stroke victim within three hours, it can significantly improve the patients chance of recovery.</p>
+                <br/>
+                <p class="content">The second treatment available for Ischemic Strokes is a procedure known as <strong>Mechanical Thrombectomy</strong>. This treatment is only available after the patient has recieved their tPA injection. In this operation, a catheter is
+                    threaded through an artery in the groin all the way ip to the blood clot in the brain. Suction tubes are then used to assist doctors in removing the clot so that blood flow may return to normal. For this treatment to be effictive,
+                    it must be performed within six hours of the stroke occuring.</p>
+                <br>
+                <h2>HEMORHAGGIC STROKE TREATMENTS</h2>
+                <br>
+                <p class="content">The first treatment that is available for Hemorhaggic Stroke patients is called an <strong>Endovascular Procedure</strong>. This procedure is similar to the mechanical thrombectomy. A catheter is inserted into an artery in the arm or leg,
+                    and then guided to the brain. A mechanical agent such as a coil is then used to prevent any further damage to the brain's blood supply.</p>
+                <br>
+                <p class="content">The second treatment available is a surgical one. The operation is done to stop blood from bleeding onto the brain. There are various methods used during this operation, but the most common one is using a metal clip. For example, in the
+                    case of a ruptured aneurysm, the metal clip is attached to the base of the aneurysm to prevent any further bleeding or damage.</p>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </section>
 
-              var $container = $('.grid');
+    </div>
+    <!-- Scripts -->
+    <script src="js/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <!-- jQuery NiceScroll -->
+    <script src="js/jquery.sticky.js"></script>
+    <!-- jQuery Stick Menu -->
+    <script src="js/masonry.pkgd.min.js"></script>
+    <!-- All script -->
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <!-- All script -->
+    <script>
+        $(function() {
 
-              $container.imagesLoaded( function(){
+            var $container = $('.grid');
+
+            $container.imagesLoaded(function() {
                 $container.masonry({
-                  itemSelector : 'li'
+                    itemSelector: 'li'
                 });
-              });
-
             });
-        </script>
-        <script src="js/parallax.min.js"></script> <!-- jQuery Parallax -->
-        <script src="js/script.js"></script> <!-- All script -->
-    </body>
+
+        });
+    </script>
+    <script src="js/parallax.min.js"></script>
+    <!-- jQuery Parallax -->
+    <script src="js/script.js"></script>
+    <!-- All script -->
+    <script src="js/login.js"></script>
+</body>
+
 </html>

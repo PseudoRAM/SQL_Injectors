@@ -1,173 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Stroke Help: FAQ</title>
-        <meta name="description" content=""/>
-        <meta name="keywords" content=""/>
-        <meta name="author" content="SQL_Injectors"/>
 
-        <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-        <link rel="manifest" href="img/favicon/manifest.json">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stroke Help: FAQ</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="SQL_Injectors" />
 
-        <link rel="stylesheet" type="text/css" href="css/reset.css" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link rel="stylesheet" type="text/css" href="css/style-responsive.css" />
-        <!--[if lt IE 9]>
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style-responsive.css" />
+    <link rel="stylesheet" href="css/login_style.css" />
+    <!--[if lt IE 9]>
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-    </head>
-    <body>
-        <div class="preloader" id="preloader">
-            <div class="item">
-                <img src="img/loading.gif">
+</head>
+
+<body>
+    <div class="preloader" id="preloader">
+        <div class="item">
+            <img src="img/loading.gif">
+        </div>
+    </div>
+    <div class="container">
+        <!-- section menu mobile -->
+        <section class="login" id="login">
+            <span class="close">×</span>
+            <script>
+                var span = document.getElementsByClassName("close")[0];
+                span.onclick = function() {
+                    login.style.display = "none";
+                }
+            </script>
+            <div class="login__wrapper">
+                <div class="login__container">
+                    <ul class="login__tabs">
+                        <li data-tabtar="lgm-2"><a href="#">Login</a></li>
+                        <li data-tabtar="lgm-1"><a href="#">Sign Up</a></li>
+                    </ul>
+                    <div class="login__tab-wrapper">
+                        <div class="login__tab lgm-1">
+                            <div class="login__heading">
+                                <span class="login__heading-subtitle">Enter your personal details <strong>to create an account</strong></span>
+                            </div>
+                            <div class="login__form">
+                                <form accept-charset="utf-8" action="#" class="simform1">
+                                    <div class="sminputs">
+                                        <div class="input full">
+                                            <label class="string optional" for="user-name">Email*</label>
+                                            <input class="string optional" maxlength="255" style='cursor: text;' id="user-email" placeholder="Email" type="email" size="50" />
+                                        </div>
+                                    </div>
+                                    <div class="sminputs">
+                                        <div class="input string optional">
+                                            <label class="string optional" for="user-pw">Password *</label>
+                                            <input class="string optional" maxlength="255" style='cursor: text;' id="user-pw" placeholder="Password" type="password" size="50" />
+                                        </div>
+                                        <div class="input string optional">
+                                            <label class="string optional" for="user-pw-repeat">Repeat password *</label>
+                                            <input class="string optional" maxlength="255" style='cursor: text;' id="user-pw-repeat" placeholder="Repeat password" type="password" size="50" />
+                                        </div>
+                                    </div>
+                                    <div class="simform__actions">
+                                        <div class="loginBtn" id="registerBtn">Create Account</div>
+                                        <!--<input class="sumbit" name="commit" type="sumbit" value="Create Account" />-->
+                                        <span class="simform__actions-sidetext">By creating an account you agree to our <a class="special" href="privacy.html" target="_blank" role="link">Terms & Privacy</a></span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="login__tab lgm-2">
+                            <div class="login__heading">
+                                <span class="login__heading-subtitle">Enter your email and password <strong>to sign in</strong></span>
+                            </div>
+                            <div class="login__form">
+                                <form accept-charset="utf-8" action="#" class="simform2">
+                                    <div class="sminputs">
+                                        <div class="input full">
+                                            <label class="string optional" for="user-name">Email*</label>
+                                            <input class="string optional" style='cursor: text;' maxlength="255" id="user-email2" placeholder="Email" type="email" size="50" />
+                                        </div>
+                                    </div>
+                                    <div class="sminputs">
+                                        <div class="input full">
+                                            <label class="string optional" for="user-pw">Password *</label>
+                                            <input class="string optional" style='cursor: text;' maxlength="255" id="user-pw2" placeholder="Password" type="password" size="50" />
+                                            <span class="hide-password">Show</span>
+                                        </div>
+                                    </div>
+                                    <div class="simform__actions">
+                                        <div class="loginBtn" id="loginBtn">login</div>
+                                        <!--<input class="sumbit" name="commit" type="sumbit" value="Log In" />-->
+                                        <span class="simform__actions-sidetext">Forgot your password?<br><a class="special" href="#" target="_blank" role="link">Click here</a></span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <!-- section menu mobile -->
-            <section class="menu-media">
-                <div class="menu-content">
+        </section>
+        <!-- section menu mobile -->
+        <section class="menu-media">
+            <div class="menu-content">
+                <div class="logo">Stroke Help</div>
+                <div class="icon">
+                    <a href="#"><img src="img/icons/menu-media.png" /></a>
+                </div>
+            </div>
+        </section>
+        <ul class="menu-click">
+            <a href="index.html">
+                <li href="index.html">HOME</li>
+            </a>
+            <a href="about-us.html">
+                <li href="about-us.html">ABOUT</li>
+            </a>
+            <a href="stroke.html">
+                <li href="stroke.html">STROKES</li>
+            </a>
+            <a href="im.html">
+                <li href="im.html">IM</li>
+            </a>
+            <a href="index.html#contact">
+                <li href="index.html#contact">CONTACT</li>
+            </a>
+            <a href="faq.html">
+                <li href="faq.html">FAQ</li>
+            </a>
+        </ul>
+
+        <!-- section menu -->
+        <section class="menu">
+            <div class="menu-content">
+                <a href='index.html'>
                     <div class="logo">Stroke Help</div>
-                    <div class="icon"><a href="#"><img src="img/icons/menu-media.png"/></a></div>
+                </a>
+                <div id='navBar'>
+                    <ul id="menu">
+                        <li class='active'><a href='about-us.html'>ABOUT</a>
+                            <ul>
+                                <li><a href='stroke.html'>STROKES</a>
+                                    <ul>
+                                        <li><a href='stroke.html'>WHAT ARE STROKES?</a></li>
+                                        <li><a href='stroke.html'>STROKE TREATMENT</a></li>
+                                        <li><a href='stroke-types.html'>TYPES OF STROKES</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href='im.html'>IM</a>
+                                    <ul>
+                                        <li><a href='im.html'>WHAT IS IM?</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href='stroke.html'>STROKES</a>
+                            <ul>
+                                <li><a href='stroke-treatment.html'>TREATMENT</a>
+                                    <ul>
+                                        <li><a href='im.html'>IM</a></li>
+                                        <li><a href='stroke-treatment.html'>TPA</a></li>
+                                        <li><a href='stroke-treatment.html'>MECHANICAL THROMBECTOMY</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href='stroke-rehab.html'>PREVENTION</a></li>
+                                <li><a href='stroke-types.html'>TYPES</a>
+                                    <ul>
+                                        <li><a href='stroke-types.html'>ISCHEMIC</a></li>
+                                        <li><a href='stroke-types.html'>HEMORRHAGIC</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href='im.html'>IM</a>
+                            <ul>
+                                <li><a href='im.html'>ABOUT</a>
+                                    <ul>
+                                        <li><a href='im.html'>WHAT IS IM?</a></li>
+                                        <li><a href='im.html'>ARTICLES ON IM</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href='im-second.html'>TYPES</a>
+                                    <ul>
+                                        <li><a href='im-second.html'>ACCUPUNCTURE</a></li>
+                                        <li><a href='im-second.html'>HERBS</a></li>
+                                        <li><a href='im-second.html'>MEDITATION</a></li>
+                                        <li><a href='im-second.html'>CREATIVE OUTLETS</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href='#contact'>CONTACT</a></li>
+                        <li><a href='faq.html'>FAQ</a></li>
+                        <li><a id='hideshow' value='hide/show' style='cursor: pointer;'>LOGIN</a></li>
+                    </ul>
                 </div>
-            </section>
-            <ul class="menu-click">
-                <a href="index.html#home">
-                    <li href="index.html#home">HOME</li>
-                </a>
-                <a href="about-us.html">
-                    <li href="about-us.html">ABOUT</li>
-                </a>
-                <a href="stroke.html">
-                    <li href="stroke.html">STROKES</li>
-                </a>
-                <a href="im.html">
-                    <li href="im.html">IM</li>
-                </a>
-                <a href="index.html#contact">
-                    <li href="index.html#contact">CONTACT</li>
-                </a>
-                <a href="faq.html">
-                    <li href="faq.html">FAQ</li>
-                </a>
-            </ul>
-
-            <!-- section menu -->
-            <section class="menu">
-                <div class="menu-content">
-                    <a href='index.html'><div class="logo">Stroke Help</div></a>
-                    <div id='navBar'>
-                        <ul id="menu">
-                            <li class='active'><a href='about-us.html'>ABOUT</a>
-                                <ul>
-                                    <li><a href='stroke.html'>STROKES</a>
-                                        <ul>
-                                            <li><a href='stroke.html'>WHAT ARE STROKES?</a></li>
-                                            <li><a href='stroke-treatment.html'>STROKE TREATMENT</a></li>
-                                            <li><a href='stroke-types.html'>TYPES OF STROKES</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href='im.html'>IM</a>
-                                        <ul>
-                                            <li><a href='im-second.html'>WHAT IS IM?</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href='stroke.html'>STROKES</a></li>
-                            <li><a href='im.html'>IM</a></li>
-                            <li><a href='contact.html'>CONTACT</a></li>
-                            <li><a href='faq.html'>FAQ</a></li>
-                        </ul>
-                    </div>
+            </div>
+        </section>
+        <!-- Strokes section -->
+        <section class="faq" id="faq">
+            <div class="content">
+                <h1>FAQ</h1>
+                <hr/>
+                <br>
+                <div class="column1">
+                    <h3>WHAT IS A STROKE?</h3>
+                    <p>There are two different types of stroke: ischemic and haemorrhagic. Ischemic strokes occur when a blood vessel in the brain is blocked by a blood clot. Haemorrhagic strokes occur when a blood vessel in the brain leaks and bleeds into
+                        the brain. About 80% of strokes are ischemic, and 20% are haemorrhagic. Damage is caused because blood supply to the brain is interrupted, and brain cells die from lack of oxygen and nutrients.</p>
                 </div>
-            </section>
-            <!-- Strokes section -->
-            <section class="faq" id="faq">
-                <div class="content">
-                    <h1>FAQ</h1>
-                    <hr/>
-					<br>
-                    <div class="column1">
-                        <h3>WHAT IS A STROKE?</h3>
-                        <p>There are two different types of stroke: ischemic and haemorrhagic. Ischemic strokes occur when a blood vessel in the brain is blocked by a blood clot. Haemorrhagic strokes occur when a blood vessel in the brain leaks and bleeds into the brain. About 80% of strokes are ischemic, and 20% are haemorrhagic. Damage is caused because blood supply to the brain is interrupted, and brain cells die from lack of oxygen and nutrients.</p>
-                    </div>
-                    <div class="column2">
-                        <h3>WHAT ARE THE SYMPTOMS OF A STROKE?</h3>
-                        <p>Stroke symptoms include:<br/>
-                            - Weakness, numbness or paralysis of some parts of the body.<br/>
-                            - Difficulty of speaking.<br/>
-                            - Loss of balance/dizziness.<br/>
-                            - Loss of vision.<br/>
-                            - Headache, usually very severe and occurs abruptly.<br/>
-                            These signs may appear in any combination. If you feel you may have some of the symptoms emergency services should be contacted.</p>
-                    </div>
-                    <div class="column1">
-                        <h3>WHAT TREATMENTS ARE AVAILABLE FOR STROKES?</h3>
-                        <p>Strokes can be treated in a number of ways, but the treatments are often broken into three categories:<br/>
-                            1. Preventative Treatment. This involves the treatment of an individuals risk factor for stroke, such as obesity, diabetes, and high blood pressure.<br/>
-                            2. Immediate Treatment. Immediately after a stroke occurs, the first step taken is to remove the clot from the brain or to stop the bleeding. Drugs are available to remove the clot, or to reduce blood pressure to stop bleeding on the brain.<br/>
-                            3. Post Stroke Rehabilitation. This treatment helps individuals overcome disabilities that resulted from stroke damage. Medication and physical therapy is a common treatment.</p>
-                    </div>
-                    <div class="column2">
-                        <h3>WHAT IS INTEGRATIVE MEDICINE</h3>
-                        <p>Integrative medicine is a philosophy of healthcare, where Western medicines are combined with alternate treatments in order to treat not just an ailment, but to try and heal the “whole body”. Integrative medicine takes into account the physical, physiological, social and spiritual wellbeing of a person when treating them.</p>
-                    </div>
-                    <div class="column1">
-                        <h3>WHAT CAN YOU DO TO DECREASE YOUR RISK OF A STROKE?</h3>
-                        <p>To reduce an individuals risk of a stroke, they can do the following:<br/>
-                            - Monitor your blood pressure, and go to a GP if it at a dangerous level.<br/>
-                            - Track your cholesterol level, and regularly check with a GP to see if you are at risk.<br/>
-                            - Quit smoking if you are a current smoker.<br/>
-                            - Exercise regularly.</br>
-                            - Check with a GP to see if you have any blood clots, and discuss drugs to reduce them.</p>
-                    </div>
-                    <div class="column2">
-                        <h3>WHAT IS THE PROGNOSIS FOR STROKE SURVIVORS?</h3>
-                        <p>A stroke is not a disability for life, with as many as 50-70% of stroke victims regaining independence. However, 15-30% of stroke victims remain permanently disabled.<br/>
-                        Immediate treatment in the event of stroke is vital to increase your chances of a successful recovery.</p>
-
-                    </div>
+                <div class="column2">
+                    <h3>WHAT ARE THE SYMPTOMS OF A STROKE?</h3>
+                    <p>Stroke symptoms include:
+                        <br/> - Weakness, numbness or paralysis of some parts of the body.
+                        <br/> - Difficulty of speaking.
+                        <br/> - Loss of balance/dizziness.
+                        <br/> - Loss of vision.
+                        <br/> - Headache, usually very severe and occurs abruptly.
+                        <br/> These signs may appear in any combination. If you feel you may have some of the symptoms emergency services should be contacted.</p>
                 </div>
-            </section>
+                <div class="column1">
+                    <h3>WHAT TREATMENTS ARE AVAILABLE FOR STROKES?</h3>
+                    <p>Strokes can be treated in a number of ways, but the treatments are often broken into three categories:
+                        <br/> 1. Preventative Treatment. This involves the treatment of an individuals risk factor for stroke, such as obesity, diabetes, and high blood pressure.
+                        <br/> 2. Immediate Treatment. Immediately after a stroke occurs, the first step taken is to remove the clot from the brain or to stop the bleeding. Drugs are available to remove the clot, or to reduce blood pressure to stop bleeding
+                        on the brain.
+                        <br/> 3. Post Stroke Rehabilitation. This treatment helps individuals overcome disabilities that resulted from stroke damage. Medication and physical therapy is a common treatment.</p>
+                </div>
+                <div class="column2">
+                    <h3>WHAT IS INTEGRATIVE MEDICINE</h3>
+                    <p>Integrative medicine is a philosophy of healthcare, where Western medicines are combined with alternate treatments in order to treat not just an ailment, but to try and heal the “whole body”. Integrative medicine takes into account
+                        the physical, physiological, social and spiritual wellbeing of a person when treating them.</p>
+                </div>
+                <div class="column1">
+                    <h3>WHAT CAN YOU DO TO DECREASE YOUR RISK OF A STROKE?</h3>
+                    <p>To reduce an individuals risk of a stroke, they can do the following:
+                        <br/> - Monitor your blood pressure, and go to a GP if it at a dangerous level.
+                        <br/> - Track your cholesterol level, and regularly check with a GP to see if you are at risk.
+                        <br/> - Quit smoking if you are a current smoker.
+                        <br/> - Exercise regularly.</br>
+                        - Check with a GP to see if you have any blood clots, and discuss drugs to reduce them.</p>
+                </div>
+                <div class="column2">
+                    <h3>WHAT IS THE PROGNOSIS FOR STROKE SURVIVORS?</h3>
+                    <p>A stroke is not a disability for life, with as many as 50-70% of stroke victims regaining independence. However, 15-30% of stroke victims remain permanently disabled.
+                        <br/> Immediate treatment in the event of stroke is vital to increase your chances of a successful recovery.</p>
 
-        </div>
-        <!-- Scripts -->
-        <script src="js/jquery-latest.min.js" type="text/javascript"></script>
-        <script src="js/jquery.nicescroll.min.js"></script> <!-- jQuery NiceScroll -->
-        <script src="js/jquery.sticky.js"></script> <!-- jQuery Stick Menu -->
-        <script src="js/masonry.pkgd.min.js"></script> <!-- All script -->
-        <script src="js/imagesloaded.pkgd.min.js"></script> <!-- All script -->
-        <script>
-            $(function(){
+                </div>
+            </div>
+        </section>
 
-              var $container = $('.grid');
+    </div>
+    <!-- Scripts -->
+    <script src="js/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <!-- jQuery NiceScroll -->
+    <script src="js/jquery.sticky.js"></script>
+    <!-- jQuery Stick Menu -->
+    <script src="js/masonry.pkgd.min.js"></script>
+    <!-- All script -->
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <!-- All script -->
+    <script>
+        $(function() {
 
-              $container.imagesLoaded( function(){
+            var $container = $('.grid');
+
+            $container.imagesLoaded(function() {
                 $container.masonry({
-                  itemSelector : 'li'
+                    itemSelector: 'li'
                 });
-              });
-
             });
-        </script>
-        <script src="js/parallax.min.js"></script> <!-- jQuery Parallax -->
-        <script src="js/script.js"></script> <!-- All script -->
-    </body>
+
+        });
+    </script>
+    <script src="js/parallax.min.js"></script>
+    <!-- jQuery Parallax -->
+    <script src="js/script.js"></script>
+    <!-- All script -->
+    <script src="js/login.js"></script>
+</body>
+
 </html>
