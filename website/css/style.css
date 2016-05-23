@@ -29,7 +29,7 @@ body {
 a {
     text-decoration: none;
     outline: none;
-    font-size: 14px;
+    font-size: 16px;
 }
 h1 {
     font-size: 34px;
@@ -40,7 +40,7 @@ h1 {
     line-height: 1.2;
 }
 p {
-    font-size: 14px;
+    font-size: 16px;
     color: white;
     font-weight: 300;
     letter-spacing: 1px;
@@ -129,7 +129,7 @@ h1 span {
     color: white;
     display: block;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 1px;
     background: none;
     -webkit-transition: all 0.6s ease-in;
@@ -341,12 +341,12 @@ h1 span {
     border: 0;
 }
 .about-us p.title {
-    color: #a4a4a4;
+    color: #808080;
     margin: 40px auto;
     width: 600px;
     line-height: 26px;
     letter-spacing: 0;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     text-align: center;
 }
@@ -363,10 +363,10 @@ h1 span {
 }
 .about-us p {
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     width: 250px;
     margin: 30px auto;
-    color: #a4a4a4;
+    color: #808080;
     line-height: 26px;
     letter-spacing: 0;
     position: relative;
@@ -496,21 +496,21 @@ h1 span {
     border: 0;
 }
 .services p.title {
-    color: #a4a4a4;
+    color: #808080;
     margin: 40px auto;
     width: 600px;
     line-height: 26px;
     letter-spacing: 0;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     text-align: center;
 }
 .services p {
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     width: 250px;
     margin: 30px auto;
-    color: #a4a4a4;
+    color: #808080;
     line-height: 26px;
     letter-spacing: 0;
     position: relative;
@@ -541,7 +541,7 @@ h1 span {
     text-align: center;
     color: #333333;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
     background: none;
     -webkit-transition: all 0.6s ease-in;
     -moz-transition: all 0.6s ease-in;
@@ -774,7 +774,7 @@ h1 span {
     float: left;
     padding-left: 40px;
     color: black;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 26px;
 }
 strong {
@@ -788,7 +788,7 @@ input {
     line-height: 40px;
     padding-left: 15px;
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 10px;
 }
 input:focus {
@@ -801,7 +801,7 @@ textarea {
     font-weight: 300;
     padding: 15px 0 0 15px;
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 10px;
     resize: vertical;
 }
@@ -819,7 +819,7 @@ textarea:focus {
     text-align: center;
     color: #333333;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
     background: none;
     -webkit-transition: all 0.6s ease-in;
     -moz-transition: all 0.6s ease-in;
@@ -861,7 +861,7 @@ textarea:focus {
 .footer .menu-footer a {
     line-height: 46px;
     padding: 10px;
-    color: #a4a4a4;
+    color: #808080;
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
     -ms-transition: all 0.2s ease-in;
@@ -878,9 +878,9 @@ textarea:focus {
     margin: 0 auto;
     padding: 30px 0 50px;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 36px;
-    color: #a4a4a4;
+    color: #808080;
 }
 .stroke {
     position: relative;
@@ -890,7 +890,7 @@ textarea:focus {
 }
 .stroke .content {
     position: relative;
-    width: 900px;
+    width: 1100px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -913,14 +913,14 @@ textarea:focus {
     border: 0;
 }
 .stroke p.title {
-    color: #a4a4a4;
+    color: #808080;
     margin: 40px auto;
-    width: 600px;
+    width: 900px;
     line-height: 26px;
     letter-spacing: 0;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
-    text-align: center;
+    text-align: left;
 }
 .stroke h2 {
     text-align: center;
@@ -935,20 +935,63 @@ textarea:focus {
 }
 .stroke p {
     text-align: left;
-    font-size: 14px;
-    width: 350px;
+    font-size: 16px;
+    width: 450px;
     margin: 30px 20px 20px 30px;
-    color: #a4a4a4;
+    color: #808080;
     line-height: 26px;
     letter-spacing: 0;
     position: relative;
     font-weight: 300;
 }
-.stroke .column {
+.stroke p.content {
+    text-align: left;
+    font-size: 16px;
+    width: 900px;
+    margin: 10px auto;
+    color: #808080;
+    line-height: 26px;
+    letter-spacing: 0;
+    position: relative;
+    font-weight: 300;
+}
+.stroke h4 {
+	text-align: left;
+	font-size: 20px;
+	margin: 10px 100px;
+	font-weight: 400;
+	color: black;
+
+}
+.stroke li {
+    text-align: left;
+    font-size: 16px;
+    width: 900px;
+    margin: 10px auto;
+    color: #808080;
+    line-height: 26px;
+    letter-spacing: 0;
+    position: relative;
+    font-weight: 300;
+}
+.stroke .column1 {
     margin-top: 40px;
-    width: 450px;
+	margin-bottom: 70px;
+	margin-right: auto;
+	margin-left: 40px;
+	text-align: center;
+    width: 500px;
     float: left;
-    margin-bottom: 70px;
+    height: 700px;
+}
+.stroke .column2 {
+    margin-top: 40px;
+	margin-bottom: 70px;
+	margin-left: auto;
+	margin-right: 40px;
+	text-align: center;
+    width: 500px;
+    float: right;
     height: 700px;
 }
 .stroke .img {
@@ -1033,7 +1076,7 @@ textarea:focus {
     cursor: pointer;
     transition; 0.3s;
 }
-.stroke #myImg:hover {
+.stroke #myImg2:hover {
     opacity: 0.7;
 }
 .stroke .modal2 {
@@ -1134,7 +1177,7 @@ textarea:focus {
 #navBar > ul > li.has-sub > a:before {
   position: absolute;
   top: 19px;
-  right: 14px;
+  right: 16px;
   display: block;
   width: 2px;
   height: 8px;
@@ -1179,7 +1222,7 @@ textarea:focus {
 #navBar ul ul ul {
   margin-left: 100%;
   top: 0;
-  
+
 }
 #navBar.align-right ul ul ul {
   margin-left: 100%;
@@ -1230,7 +1273,7 @@ textarea:focus {
 #navBar ul ul li.has-sub > a:before {
   position: absolute;
   top: 13px;
-  right: 14px;
+  right: 16px;
   display: block;
   width: 2px;
   height: 8px;
@@ -1244,10 +1287,335 @@ textarea:focus {
 }
 #navBar.align-right ul ul li.has-sub > a:before {
   right: auto;
-  left: 14px;
+  left: 16px;
 }
 #navBar ul ul > li.has-sub:hover > a:before {
   top: 17px;
   height: 0;
 }
 
+.im {
+    position: relative;
+    width: 100%;
+    background: white;
+    z-index: 10;
+}
+.im .content {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.im h1 {
+    font-size: 34px;
+    color: black;
+    text-align: center;
+    margin-top: 120px;
+    letter-spacing: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.im hr {
+    color: black;
+    margin-top: 30px;
+    background-color: black;
+    height: 1px;
+    width: 106px;
+    border: 0;
+}
+.im p.title {
+    color: #808080;
+    margin: 40px auto;
+    width: 1000px;
+    line-height: 26px;
+    letter-spacing: 0;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+}
+.im h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 26px;
+    color: black;
+    line-height: 1.2;
+    letter-spacing: 6px;
+    width: 100%;
+    position: relative;
+    font-weight: 400;
+}
+.im p {
+    text-align: left;
+    font-size: 16px;
+    width: 350px;
+    margin: 30px 20px 20px 30px;
+    color: #808080;
+    line-height: 26px;
+    letter-spacing: 0;
+    position: relative;
+    font-weight: 300;
+}
+.im p.box {
+	text-align: left;
+	font-size: 14px;
+	width: 250px;
+}
+
+.im .column {
+	position: relative;
+	padding: 50px 50px;
+	margin-right: 40px;
+	margin-left: 40px;
+	text-align: center;
+    float: left;
+}
+.im .imagecard {
+	width: 300px;
+	height: 640px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.im .box {
+	text-align: center;
+	padding: 2px 2px;
+
+}
+.im .img {
+    border-radius: 10px;
+    width: 80%;
+    height: auto;
+}
+.im #myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition; 0.3s;
+}
+.im #myImg:hover {
+    opacity: 0.7;
+}
+.im .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+.im .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 500px;
+}
+.im #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+.im .modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes zoom {
+    from {transform: scale(0.1)}
+    to {transform: scale(1)}
+}
+.im .close {
+    position: absolute;
+    top: 100px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.im .close:hover, .im .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media only screen and (max-width: 500px) {
+    .modal-content {
+        width:100%;
+    }
+}
+
+.im #myImg2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition; 0.3s;
+}
+.im #myImg:hover {
+    opacity: 0.7;
+}
+.im .modal2 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+.im .modal-content2 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 500px;
+}
+.im #caption2 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+.im .modal-content2, #caption2 {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes zoom {
+    from {transform: scale(0.1)}
+    to {transform: scale(1)}
+}
+.im .close2 {
+    position: absolute;
+    top: 100px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.im .close:hover, .im .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media only screen and (max-width: 500px) {
+    .modal-content {
+        width:100%;
+    }
+}
+.im .
+
+.faq {
+    position: relative;
+    width: 100%;
+    background: white;
+    z-index: 10;
+}
+.faq .content {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.faq h1 {
+    font-size: 34px;
+    color: black;
+    text-align: center;
+    margin-top: 120px;
+    letter-spacing: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.faq hr {
+    color: black;
+    margin-top: 30px;
+    background-color: black;
+    height: 1px;
+    width: 106px;
+    border: 0;
+}
+.faq p.title {
+    color: #808080;
+    margin: 40px auto;
+    width: 1000px;
+    line-height: 26px;
+    letter-spacing: 0;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+}
+.faq h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 26px;
+    color: black;
+    line-height: 1.2;
+    letter-spacing: 6px;
+    width: 100%;
+    position: relative;
+    font-weight: 400;
+}
+.faq h3 {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 20px;
+	color: black;
+	postion: relative;
+	font-weight: 400;
+}
+.faq p {
+    text-align: left;
+    font-size: 16px;
+    width: 450px;
+    margin: 30px 20px 20px 30px;
+    color: #808080;
+    line-height: 26px;
+    letter-spacing: 0;
+    position: relative;
+    font-weight: 300;
+}
+.faq .column1 {
+    margin-top: 40px;
+	margin-left: 40px;
+	margin-right: auto;
+    width: 500px;
+    float: left;
+    margin-bottom: 70px;
+    height:350px;
+}
+.faq .column2 {
+    margin-top: 40px;
+	margin-left: 40px;
+	margin-right: auto;
+    width: 500px;
+    float: right;
+    margin-bottom: 70px;
+    height: 350px;
+}
