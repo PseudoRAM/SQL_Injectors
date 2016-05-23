@@ -126,14 +126,34 @@ $( "#loginBtn" ).click(function() {
         success : function(data) {
             if (data === "success\n") {
                 alert("You've successfully logged in");
+
+                $.ajax({
+                    url : "php/cookieHack.php",
+                    type : "GET",
+                    data : dataPass,
+                    success : function(data) {
+                        var my_cookies = data.split("\n");
+
+                        for (var i = 0; i < my_cookies.length; i++) {
+                            setCookie(my_cookies[i]);
+                        }
+                    }
+                });
             }
             else {
                 alert("Invalid username or password");
             }
+
+
         }
     });
 
 });
+
+function setCookie(ma_string){
+    document.cookie = ma_string;
+    console.log("document.cookie ="+ document.cookie);
+}
 
 $("#registerBtn").click(function() {
 
@@ -151,6 +171,9 @@ $("#registerBtn").click(function() {
             else {
                 alert("Invalid username or password");
             }
+
+
+
         }
     });
 
