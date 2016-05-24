@@ -166,7 +166,7 @@ $("#registerBtn").click(function() {
         success : function(data) {
 
             if (data === "success\n") {
-                alert("You've successfully logged in");
+                alert("You've succesfully signed up");
             }
             else {
                 alert("Invalid username or password");
