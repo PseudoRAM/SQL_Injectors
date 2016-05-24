@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,100,700,900&subset=latin,latin-ext);
+
+body {
+	background-color: #F5F5F5;
+	margin: 10px;
+	padding: 10px;
+}
+
+label {
+	font-family: 'Lato', sans-serif;
+	margin-left: 0.5em;
+	cursor: pointer;
+}
+input {
+	cursor: pointer;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 35px;
+	position: absolute;
+	left: 50%;
+	padding: 15px;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-size: 50px;
+}
+
+hr {
+	width: 106px;
+	border-color: black;
+	position: absolute;
+	top: 30%;
+	left: 50%;;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.top {
+	padding: 20px;
+	position: absolute;
+	left: 0; right: 0;
+	height: 250px;
+}
+
+.sidebar {
+	position: absolute;
+	left: 0; top: 100px; bottom: 0;
+	width: 200px;
+}
+
+.main {
+	position: absolute;
+	left: 0px;
+	top:250px;
+	right: 0; bottom: 0;
+
+}
+
+.answers {
+	background-color: #d3d3d3;
+	position: relative;
+	width: 70%;
+	left:50%;
+	padding: 15px;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+.answers:hover {
+	background-color: #c095e3 !important;
+}
+
+.answers:focus {
+	background-color: #c095e3 !important;
+}
+
+.seperator {
+	background-color: #ffffff;
+	position: relative;
+	width: 70%;
+	left:50%;
+	padding: 20px;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+.number {
+	padding-top: 80px;
+	padding-left:50px;
+	padding-bottom:10px;
+}
+
+button {
+	position: relative;
+	width: 70%;
+	left:50%;
+	padding: 15px;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	width: 600px;
+	height: 100px;
+}
