@@ -139,6 +139,8 @@ $( "#loginBtn" ).click(function() {
                         }
                     }
                 });
+
+				window.location = "profile.html";
             }
             else {
                 alert("Invalid username or password");
